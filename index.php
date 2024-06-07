@@ -226,7 +226,7 @@ if(isset($message)){
       </table>
 
       <div class="cart-btn">  
-   <a href="checkout.php?total=<?php echo $grand_total; ?>" class="btn <?php echo ($grand_total > 1) ? '' : 'disabled'; ?>">Proceed to Checkout</a>
+   <a href="Checkout.php?total=<?php echo $grand_total; ?>" class="btn <?php echo ($grand_total > 1) ? '' : 'disabled'; ?>">Proceed to Checkout</a>
 </div>
    </div>
 </div>
